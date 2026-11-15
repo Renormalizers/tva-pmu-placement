@@ -1,0 +1,7 @@
+Grid,Buses,Plain minimum (seen once),N-1 minimum (seen twice),Fixed by exact reduction,Left for pieces,Pieces after split (qubits),Solved by QAOA,Solved by ILP,N-1 ILP time (ms),Reduction time (ms)
+IEEE 14,14,4,9,2,7,12,12,-,4.0,0.2
+IEEE 30,30,10,21,8,13,"9, 8, 3","9, 8, 3",-,12.4,0.7
+IEEE 57,57,17,33,2,31,55,-,55,5.7,0.8
+IEEE 118,118,32,68,22,46,84,-,84,8.1,15.0
+IEEE 300,300,87,202,135,67,"84, 39, 12",12,"84, 39",7.2,56.1
+Texas 2000 (ACTIVSg2000),2000,512,1354,635,719,"1274, 22, 15, 12, 3, 3","15, 12, 3, 3","1274, 22",129.2,3885.6

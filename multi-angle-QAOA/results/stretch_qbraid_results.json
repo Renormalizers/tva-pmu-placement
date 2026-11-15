@@ -1,0 +1,144 @@
+{
+ "shots": 200,
+ "source": "qBraid runs 2026-11-15 (IonQ simulator with forte-1 noise model; Quantinuum H2 emulator); noise-free computed from the same circuits; Rigetti Cepheus-1-108Q real QPU (qBraid direct), 200 shots, 2026-11-15",
+ "results": {
+  "ieee14_N-1": {
+   "qubits": 12,
+   "random": 0.001953125,
+   "standard": {
+    "cx": 168,
+    "noise_free": 0.14036722965997606,
+    "ionq": 0.035,
+    "quantinuum": 0.105,
+    "job_ids": {
+     "ionq_sim_forte1_noise": "ionq:ionq:sim:simulator-0ad3-qjob-6af8f847c8f5265fb3f21833",
+     "quantinuum_h2_emulator": "quantinuum:quantinuum:sim:h2-emulator-0ad3-qjob-6af8f858c8f5265fb3f2185b",
+     "rigetti_cepheus_qpu": "rigetti:rigetti:qpu:cepheus-1-108q-0ad3-qjob-6af904c7c8f5265fb3f22000"
+    },
+    "rigetti": 0.005,
+    "rigetti_cost_credits": 26.138
+   },
+   "multi": {
+    "cx": 84,
+    "noise_free": 0.9447045771069313,
+    "ionq": 0.5,
+    "quantinuum": 0.9,
+    "job_ids": {
+     "ionq_sim_forte1_noise": "ionq:ionq:sim:simulator-0ad3-qjob-6af8f849c8f5265fb3f21836",
+     "quantinuum_h2_emulator": "quantinuum:quantinuum:sim:h2-emulator-0ad3-qjob-6af8f859c8f5265fb3f2185f",
+     "rigetti_cepheus_qpu": "rigetti:rigetti:qpu:cepheus-1-108q-0ad3-qjob-6af90346c8f5265fb3f21ecc",
+     "forte": "aws:ionq:qpu:forte-1-0ad3-qjob-6af9186dc8f5265fb3f22e8d"
+    },
+    "rigetti": 0.005,
+    "rigetti_cost_credits": 25.765,
+    "forte": 0.74,
+    "forte_shots": 100,
+    "forte_cost_credits": 830.0
+   }
+  },
+  "ieee30_N-1": {
+   "qubits": 8,
+   "random": 0.046875,
+   "standard": {
+    "cx": 68,
+    "noise_free": 0.30543271770100844,
+    "ionq": 0.205,
+    "quantinuum": 0.3,
+    "job_ids": {
+     "ionq_sim_forte1_noise": "ionq:ionq:sim:simulator-0ad3-qjob-6af8f84bc8f5265fb3f2183a",
+     "quantinuum_h2_emulator": "quantinuum:quantinuum:sim:h2-emulator-0ad3-qjob-6af8f85ac8f5265fb3f21862",
+     "rigetti_cepheus_qpu": "rigetti:rigetti:qpu:cepheus-1-108q-0ad3-qjob-6af90341c8f5265fb3f21ec3"
+    },
+    "rigetti": 0.02,
+    "rigetti_cost_credits": 25.844
+   },
+   "multi": {
+    "cx": 34,
+    "noise_free": 0.9951087787235181,
+    "ionq": 0.83,
+    "quantinuum": 0.94,
+    "job_ids": {
+     "ionq_sim_forte1_noise": "ionq:ionq:sim:simulator-0ad3-qjob-6af8f84cc8f5265fb3f2183e",
+     "quantinuum_h2_emulator": "quantinuum:quantinuum:sim:h2-emulator-0ad3-qjob-6af8f85cc8f5265fb3f21865",
+     "rigetti_cepheus_qpu": "rigetti:rigetti:qpu:cepheus-1-108q-0ad3-qjob-6af902ebc8f5265fb3f21e8c",
+     "forte": "aws:ionq:qpu:forte-1-0ad3-qjob-6af91b1fc8f5265fb3f2314d"
+    },
+    "rigetti": 0.105,
+    "rigetti_cost_credits": 23.4824,
+    "forte": 0.93,
+    "forte_shots": 100,
+    "forte_cost_credits": 830.0
+   }
+  },
+  "ieee300_N-1": {
+   "qubits": 12,
+   "random": 0.002685546875,
+   "standard": {
+    "cx": 572,
+    "noise_free": 0.10219196752135863,
+    "ionq": 0.005,
+    "quantinuum": 0.045,
+    "job_ids": {
+     "ionq_sim_forte1_noise": "ionq:ionq:sim:simulator-0ad3-qjob-6af8f84fc8f5265fb3f2184c",
+     "quantinuum_h2_emulator": "quantinuum:quantinuum:sim:h2-emulator-0ad3-qjob-6af8f85fc8f5265fb3f2186e",
+     "rigetti_cepheus_qpu": "rigetti:rigetti:qpu:cepheus-1-108q-0ad3-qjob-6af904cdc8f5265fb3f2200b"
+    },
+    "rigetti": null,
+    "rigetti_note": "FAILED: Rigetti compiler (quilc) timed out at 180 s; not run, not charged"
+   },
+   "multi": {
+    "cx": 284,
+    "noise_free": 0.253276536525737,
+    "ionq": 0.01,
+    "quantinuum": 0.155,
+    "job_ids": {
+     "ionq_sim_forte1_noise": "ionq:ionq:sim:simulator-0ad3-qjob-6af8f851c8f5265fb3f2184f",
+     "quantinuum_h2_emulator": "quantinuum:quantinuum:sim:h2-emulator-0ad3-qjob-6af8f861c8f5265fb3f21875",
+     "rigetti_cepheus_qpu": "rigetti:rigetti:qpu:cepheus-1-108q-0ad3-qjob-6af904cac8f5265fb3f22008",
+     "forte": "aws:ionq:qpu:forte-1-0ad3-qjob-6af93338c8f5265fb3f244c7"
+    },
+    "rigetti": null,
+    "rigetti_note": "FAILED: Rigetti compiler (quilc) timed out at 180 s; not run, not charged",
+    "forte": 0.1,
+    "forte_shots": 100,
+    "forte_cost_credits": 830.0
+   }
+  },
+  "activsg2000_N-1": {
+   "qubits": 12,
+   "random": 0.013916015625,
+   "standard": {
+    "cx": 136,
+    "noise_free": 0.26689412158905773,
+    "ionq": 0.145,
+    "quantinuum": 0.26,
+    "job_ids": {
+     "ionq_sim_forte1_noise": "ionq:ionq:sim:simulator-0ad3-qjob-6af8f854c8f5265fb3f21852",
+     "quantinuum_h2_emulator": "quantinuum:quantinuum:sim:h2-emulator-0ad3-qjob-6af8f863c8f5265fb3f21879",
+     "rigetti_cepheus_qpu": "rigetti:rigetti:qpu:cepheus-1-108q-0ad3-qjob-6af904c9c8f5265fb3f22004"
+    },
+    "rigetti": 0.01,
+    "rigetti_cost_credits": 24.841
+   },
+   "multi": {
+    "cx": 68,
+    "noise_free": 0.9190484966956244,
+    "ionq": 0.665,
+    "quantinuum": 0.795,
+    "job_ids": {
+     "ionq_sim_forte1_noise": "ionq:ionq:sim:simulator-0ad3-qjob-6af8f856c8f5265fb3f21856",
+     "quantinuum_h2_emulator": "quantinuum:quantinuum:sim:h2-emulator-0ad3-qjob-6af8f864c8f5265fb3f21886",
+     "rigetti_cepheus_qpu": "rigetti:rigetti:qpu:cepheus-1-108q-0ad3-qjob-6af9033fc8f5265fb3f21ebc",
+     "forte": "aws:ionq:qpu:forte-1-0ad3-qjob-6af91b32c8f5265fb3f23157"
+    },
+    "rigetti": 0.01,
+    "rigetti_cost_credits": 26.5832,
+    "forte": 0.68,
+    "forte_shots": 100,
+    "forte_cost_credits": 830.0
+   }
+  }
+ },
+ "rigetti_total_credits": 152.65,
+ "forte_total_credits": 3320.0
+}
