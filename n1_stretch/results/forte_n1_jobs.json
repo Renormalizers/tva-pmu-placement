@@ -1,8 +1,0 @@
-{
- "device": "aws:ionq:qpu:forte-1",
- "shots": 100,
- "ieee14_N-1|multi": "aws:ionq:qpu:forte-1-0ad3-qjob-6af9186dc8f5265fb3f22e8d",
- "ieee30_N-1|multi": "aws:ionq:qpu:forte-1-0ad3-qjob-6af91b1fc8f5265fb3f2314d",
- "activsg2000_N-1|multi": "aws:ionq:qpu:forte-1-0ad3-qjob-6af91b32c8f5265fb3f23157",
- "ieee300_N-1|multi": "aws:ionq:qpu:forte-1-0ad3-qjob-6af93338c8f5265fb3f244c7"
-}

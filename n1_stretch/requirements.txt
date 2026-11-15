@@ -1,6 +1,0 @@
-numpy
-scipy
-matplotlib
-qiskit
-qiskit-aer
-qbraid==0.12.2
