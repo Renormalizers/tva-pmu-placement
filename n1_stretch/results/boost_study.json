@@ -1,0 +1,105 @@
+{
+ "ieee300 N-1 12q": {
+  "A multi-angle, |+> start": {
+   "p_opt": 0.2546,
+   "p_valid": 0.4927,
+   "cx": 286,
+   "p_opt_noisy": 0.089,
+   "random": 0.0027
+  },
+  "B warm start": {
+   "p_opt": 0.8691,
+   "p_valid": 0.9066,
+   "cx": 286,
+   "p_opt_noisy": 0.2815,
+   "random": 0.0027
+  },
+  "C warm start, 2 layers": {
+   "p_opt": 0.9744,
+   "p_valid": 0.9849,
+   "cx": 572,
+   "p_opt_noisy": 0.1155,
+   "random": 0.0027
+  },
+  "D RQAOA + exact reduction (noisy)": {
+   "found": 5,
+   "optimum": 5,
+   "optimal": true,
+   "circuits": [
+    [
+     12,
+     286
+    ],
+    [
+     11,
+     222
+    ],
+    [
+     10,
+     142
+    ],
+    [
+     7,
+     120
+    ],
+    [
+     6,
+     98
+    ]
+   ],
+   "max_cx": 286,
+   "steps": [
+    "12 qubits: fix bus 142 = 0 (QAOA 0.09); rules then place 0 more -> pieces [11]",
+    "11 qubits: fix bus 141 = 0 (QAOA 0.05); rules then place 0 more -> pieces [10]",
+    "10 qubits: fix bus 172 = 0 (QAOA 0.01); rules then place 2 more -> pieces [7]",
+    "7 qubits: fix bus 176 = 1 (QAOA 0.94); rules then place 0 more -> pieces [6]",
+    "6 qubits: fix bus 175 = 0 (QAOA 0.06); rules then place 2 more -> pieces []"
+   ]
+  },
+  "seconds": 180.0
+ },
+ "ieee14 N-1 12q": {
+  "A multi-angle, |+> start": {
+   "p_opt": 0.2566,
+   "p_valid": 0.3564,
+   "cx": 84,
+   "p_opt_noisy": 0.1903,
+   "random": 0.002
+  },
+  "B warm start": {
+   "p_opt": 0.9917,
+   "p_valid": 0.9923,
+   "cx": 84,
+   "p_opt_noisy": 0.7248,
+   "random": 0.002
+  },
+  "C warm start, 2 layers": {
+   "p_opt": 0.9979,
+   "p_valid": 0.9982,
+   "cx": 168,
+   "p_opt_noisy": 0.5367,
+   "random": 0.002
+  },
+  "D RQAOA + exact reduction (noisy)": {
+   "found": 7,
+   "optimum": 7,
+   "optimal": true,
+   "circuits": [
+    [
+     12,
+     84
+    ],
+    [
+     7,
+     36
+    ]
+   ],
+   "max_cx": 84,
+   "steps": [
+    "12 qubits: fix bus 1 = 0 (QAOA 0.02); rules then place 3 more -> pieces [7]",
+    "7 qubits: fix bus 14 = 0 (QAOA 0.02); rules then place 4 more -> pieces []"
+   ]
+  },
+  "seconds": 79.9
+ }
+}
