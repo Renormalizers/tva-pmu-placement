@@ -1,0 +1,90 @@
+{
+ "ieee14_plain": {
+  "grid": "ieee14",
+  "kind": "plain",
+  "mps": "bench/ieee14_plain.mps",
+  "buses": 14,
+  "vars": 14,
+  "ints": 14,
+  "rows": 14,
+  "nnz": 54,
+  "nx": 14
+ },
+ "ieee14_n1": {
+  "grid": "ieee14",
+  "kind": "n1",
+  "mps": "bench/ieee14_n1.mps",
+  "buses": 14,
+  "vars": 14,
+  "ints": 14,
+  "rows": 14,
+  "nnz": 54,
+  "nx": 14
+ },
+ "ieee14_zib": {
+  "grid": "ieee14",
+  "kind": "zib",
+  "mps": "bench/ieee14_zib.mps",
+  "buses": 14,
+  "vars": 32,
+  "ints": 18,
+  "rows": 27,
+  "nnz": 98,
+  "nx": 14
+ },
+ "ieee300_plain": {
+  "grid": "ieee300",
+  "kind": "plain",
+  "mps": "bench/ieee300_plain.mps",
+  "buses": 300,
+  "vars": 300,
+  "ints": 300,
+  "rows": 300,
+  "nnz": 1118,
+  "nx": 300
+ },
+ "ieee300_n1": {
+  "grid": "ieee300",
+  "kind": "n1",
+  "mps": "bench/ieee300_n1.mps",
+  "buses": 300,
+  "vars": 300,
+  "ints": 300,
+  "rows": 300,
+  "nnz": 1118,
+  "nx": 300
+ },
+ "ieee300_zib": {
+  "grid": "ieee300",
+  "kind": "zib",
+  "mps": "bench/ieee300_zib.mps",
+  "buses": 300,
+  "vars": 857,
+  "ints": 557,
+  "rows": 1291,
+  "nnz": 4422,
+  "nx": 300
+ },
+ "synth55k_plain": {
+  "grid": "synth55k",
+  "kind": "plain",
+  "mps": "bench/synth55k_plain.mps",
+  "buses": 55000,
+  "vars": 55000,
+  "ints": 55000,
+  "rows": 55000,
+  "nnz": 203498,
+  "nx": 55000
+ },
+ "synth55k_n1": {
+  "grid": "synth55k",
+  "kind": "n1",
+  "mps": "bench/synth55k_n1.mps",
+  "buses": 55000,
+  "vars": 55000,
+  "ints": 55000,
+  "rows": 55000,
+  "nnz": 203498,
+  "nx": 55000
+ }
+}
